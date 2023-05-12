@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: #292929 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero h1{
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+} 
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width:90%;
+    max-width: 800px;
+    background: #fff;
+}
+
+.left-box{
+    padding: 50px;
+    background: #2f389c;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color:#fff;
+
+}
+
+.right-box{
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;
+    font-size: 12.5px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 12px;
+    background: transparent;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.left-box button {
+    width: 49%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.left-box button:hover{
+    font-weight: 500;
+    background: #292929;
+    color: #fff;
+}
+
+.group{
+    font-size: 13px;
+}
+
+.introduction{
+    font-weight: 600;
+}
+
+
+
